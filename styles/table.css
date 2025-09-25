@@ -1,7 +1,6 @@
 table {
     table-layout: fixed;
-    width: 40%;
-    min-width: 800px;
+    width: auto;
     margin: 0 auto;
     border-collapse: collapse;
     border-top: 1px solid #999999;

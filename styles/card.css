@@ -3,19 +3,18 @@
     border-bottom: var(--border-style);
     padding: 3%;
     font-family: var(--main-font);
+    transition: all 0.5s;
+}
+
+.card:hover,
+.poster:hover{
+    transform: scale(110%);
 }
 
 .card__button {
     font-family: var(--main-font);
 }
 
-.card__right {
-    align-self: flex-end;
-}
-
-.card__left {
-    align-self: flex-start;
-}
 
 /* White/Grey */
 
@@ -26,7 +25,15 @@
     background-color: lightgrey;
 }
 
-/* Text Cards */
+/* Left/Right */
+
+.card__right {
+    align-self: flex-end;
+}
+
+.card__left {
+    align-self: flex-start;
+}
 
 
 
@@ -34,8 +41,8 @@
 
 /* Table Card */
 
-.card__with__table {
-    width: fit-content;
+.card_with_table:hover {
+    transform: scale(100%);
 }
 
 /* Image Card */
@@ -51,4 +58,5 @@
     aspect-ratio: 3 / 2;
     min-height: 200px;
     border: var(--border-style);
+    transition: all 0.5s;
 }
