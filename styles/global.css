@@ -1,6 +1,7 @@
 :root {
     --main-colour: rgb(232, 232, 49);
     --main-font: 'Josefin Sans', sans-serif;
+    --border-style: 20px solid black;
 }
 
 * {
@@ -15,6 +16,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     max-width: 1300px;
     margin: 0 auto
 }

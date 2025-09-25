@@ -6,9 +6,7 @@ header {
     display: flex;
     background-color: var(--main-colour);
     padding: 3%;
-    border-width: 14px;
-    border-style: solid;
-    border-color: black;
+    border: var(--border-style);
     justify-content: center;
     margin-bottom: 0;
 }

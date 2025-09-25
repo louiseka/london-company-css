@@ -1,0 +1,54 @@
+.card {
+    width: 60%;
+    border-bottom: var(--border-style);
+    padding: 3%;
+    font-family: var(--main-font);
+}
+
+.card__button {
+    font-family: var(--main-font);
+}
+
+.card__right {
+    align-self: flex-end;
+}
+
+.card__left {
+    align-self: flex-start;
+}
+
+/* White/Grey */
+
+.white__background {
+    background-color: whitesmoke;
+}
+.grey__background {
+    background-color: lightgrey;
+}
+
+/* Text Cards */
+
+
+
+/* Form Cards */
+
+/* Table Card */
+
+.card__with__table {
+    width: fit-content;
+}
+
+/* Image Card */
+
+/* Poster */
+
+.poster {
+    background-image: url("../images/banner.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    width: 60%;
+    aspect-ratio: 3 / 2;
+    min-height: 200px;
+    border: var(--border-style);
+}
