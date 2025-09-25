@@ -1,3 +1,31 @@
 body {
       font-family: "Josefin Sans", sans-serif;
 }
+
+.card__button {
+      background-color: #000;
+      border: 2px solid #000;
+      color: var(--main-colour);
+      border: none;
+      padding: 1em 0.8em;
+      margin: 1em 0;
+      width: 150px;
+      font-size: 1rem;
+      font-family: "Josefin Sans", sans-serif;
+}
+
+.card__button:hover,
+.card__button:active,
+.card__button:focus {
+      cursor: pointer;
+}
+
+.transition-1 {
+      transition: all 1s;
+}
+
+.transition-1:hover {
+      color: #000;
+      border: 2px solid #000;
+      background-color: transparent;
+}
