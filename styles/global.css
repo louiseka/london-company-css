@@ -1,0 +1,19 @@
+:root {
+    --main-colour: rgb(232, 232, 49);
+    --main-font: 'Josefin Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--main-colour);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1300px;
+}
