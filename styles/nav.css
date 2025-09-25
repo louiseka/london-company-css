@@ -10,11 +10,11 @@
     gap: 2vw;
     padding: 0;
     margin: 0;
-    background-color: yellow
+    background-color: var(--main-colour);
 }
 
 .header__nav__item {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: var(--main-font);
     font-size: 1.5rem;
     padding: 15px;
 }
@@ -29,5 +29,5 @@
 }
 
 .selected .header__nav__link {
-    color: yellow;
+    color: var(--main-colour);
 }

@@ -33,7 +33,7 @@
 .form__container__btn {
     background-color: #000;
     border: 2px solid #000;
-    color: #FBF116;
+    color: var(--main-colour);
     border: none;
     padding: 1em;
     margin: 1em 0;
