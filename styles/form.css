@@ -1,0 +1,58 @@
+.card__with__form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.form__container {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+}
+
+.form__container__label {
+    margin: 1.5em 0 0.5em;
+}
+
+.form__container__input,
+.form__container__textarea,
+.form__container__btn {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+.form__container__input {
+    padding: 1em;
+    font-size: 1.25rem;
+}
+
+.form__container__textarea {
+    padding: 1em;
+    font-size: 1.25rem;
+}
+
+.form__container__btn {
+    background-color: #000;
+    border: 2px solid #000;
+    color: #FBF116;
+    border: none;
+    padding: 1em;
+    margin: 1em 0;
+    width: 150px;
+    font-size: 1.25rem;
+}
+
+.form__container__btn:hover,
+.form__container__btn:active,
+.form__container__btn:focus {
+    cursor: pointer;
+}
+
+.transition-1 {
+    transition: all 1s;
+}
+
+.transition-1:hover {
+    color: #000;
+    border: 2px solid #000;
+    background-color: transparent;
+}

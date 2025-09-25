@@ -1,12 +1,16 @@
+header {
+    margin: 5vh 9vw 2vh;
+}
+
 .header__logo {
     display: flex;
-    margin: 5vh 9vw 2vh;
     background-color: yellow;
     padding: 3%;
-    border-width: 6px;
+    border-width: 14px;
     border-style: solid;
     border-color: black;
-    justify-content: center
+    justify-content: center;
+    margin-bottom: 0;
 }
 
 .header__logo__img {
