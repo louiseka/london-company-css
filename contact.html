@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
 
     <!-- CSS Stylesheets -->
-    
+    <link rel="stylesheet" href="./styles/form.css">
+    <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/header.css">
 </head>
+
 <body>
     <header>
         <div class="header__logo">
@@ -25,24 +32,29 @@
     <main>
         <section class="card grey__background card__with__form">
             <h1 class="card__title">Contact Us</h1>
-            <div class="form-container">
+            <div>
                 <p>If you would like to get in touch with us please use the form below</p>
-                <form>
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" placeholder="Your name" />
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="Your email" />
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" rows="5" placeholder="Your message"></textarea>
-                    <button type="submit">Send</button>
+                <form class="form__container">
+                    <label class="form__container__label" for="name">Name</label>
+                    <input class="form__container__input" type="text" name="name" id="name" placeholder="Your name" />
+                    <label class="form__container__label" for="email">Email</label>
+                    <input class="form__container__input" type="email" name="email" id="email"
+                        placeholder="Your email" />
+                    <label class="form__container__label" for="message">Message</label>
+                    <textarea class="form__container__textarea" name="message" id="message" rows="5"
+                        placeholder="Your message"></textarea>
+                    <button class="form__container__btn transition-1" type="submit">Send</button>
                 </form>
             </div>
         </section>
         <section class="card white__background card__with__text">
             <h1 class="card__title">Lorem Ipsum</h1>
-            <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos tenetur autem nihil nulla voluptatibus, itaque suscipit provident facilis dolor ipsa quisquam voluptatum similique doloribus dolores illum officiis laudantium maiores iusto?</p>
+            <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos tenetur autem nihil
+                nulla voluptatibus, itaque suscipit provident facilis dolor ipsa quisquam voluptatum similique doloribus
+                dolores illum officiis laudantium maiores iusto?</p>
             <img class="card__image" src="./images/map.png" alt="Map of Brighton & Hove">
-        </section>    
+        </section>
     </main>
 </body>
+
 </html>
