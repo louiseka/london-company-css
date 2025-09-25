@@ -20,3 +20,7 @@ main {
     max-width: 1300px;
     margin: 0 auto
 }
+
+.card__image {
+    max-width: 100%;
+}
