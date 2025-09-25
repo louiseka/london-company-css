@@ -1,0 +1,14 @@
+.header__logo {
+    display: flex;
+    margin: 5vh 9vw 2vh;
+    background-color: yellow;
+    padding: 3%;
+    border-width: 6px;
+    border-style: solid;
+    border-color: black;
+    justify-content: center
+}
+
+.header__logo__img {
+    filter: invert(100%);
+}
