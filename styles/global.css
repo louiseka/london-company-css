@@ -12,13 +12,20 @@ body {
     background-color: var(--main-colour);
 }
 
+h1,
+h2,
+p {
+    margin: 0;
+}
+
 main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 1300px;
-    margin: 0 auto
+    margin: 0 auto;
+    line-height: 1.5;
 }
 
 .card__image {
