@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,13 +11,15 @@
         rel="stylesheet">
 
     <!-- CSS Stylesheets -->
-    
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/table.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/nav.css">
     <link rel="stylesheet" href="./styles/global.css">
 
 
 </head>
+
 <body>
     <header>
         <div class="header__logo">
@@ -33,67 +36,68 @@
     <main>
         <section class="card grey__background card__with__text">
             <h1 class="card__title">Services</h1>
-            <p class="card__text">Ulla voluptatibus, itaque suscipit provident facilis dolor ipsa quisquam voluptatum similique
+            <p class="card__text">Ulla voluptatibus, itaque suscipit provident facilis dolor ipsa quisquam voluptatum
+                similique
                 doloribus dolores illum officiis laudantium maiores iusto?</p>
         </section>
         <section class="card white__background card__with__table">
             <h1 class="card__title">Candidates</h1>
             <div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Name</th>
-                        <th>Role</th>
-                        <th>Actions</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Max Mendes</td>
-                        <td>Designer</td>
-                        <td><button>View</button></td>
-                    </tr>
-                     <tr>
-                        <td>2</td>
-                        <td>Dane Sikorsky</td>
-                        <td>Product Manager</td>
-                        <td><button>View</button></td>
-                    </tr>
-                     <tr>
-                        <td>3</td>
-                        <td>Jenifer Quitchback</td>
-                        <td>QA Engineer</td>
-                        <td><button>View</button></td>
-                    </tr>
-                     <tr>
-                        <td>4</td>
-                        <td>Gustav Mendez</td>
-                        <td>Frontend</td>
-                        <td><button>View</button></td>
-                    </tr>
-                     <tr>
-                        <td>5</td>
-                        <td>Mark Hugo</td>
-                        <td>Backend</td>
-                        <td><button>View</button></td>
-                    </tr>
-                     <tr>
-                        <td>6</td>
-                        <td>Kendrick Smith</td>
-                        <td>Frontend</td>
-                        <td><button>View</button></td>
-                    </tr>
-                     <tr>
-                        <td>7</td>
-                        <td>Max Mendes</td>
-                        <td>Designer</td>
-                        <td><button>View</button></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Role</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Max Mendes</td>
+                            <td>Designer</td>
+                            <td><button class="table__btn transition-1">View</button></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Dane Sikorsky</td>
+                            <td>Product Manager</td>
+                            <td><button class="table__btn transition-1">View</button></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Jenifer Quitchback</td>
+                            <td>QA Engineer</td>
+                            <td><button class="table__btn transition-1">View</button></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Gustav Mendez</td>
+                            <td>Frontend</td>
+                            <td><button class="table__btn transition-1">View</button></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Mark Hugo</td>
+                            <td>Backend</td>
+                            <td><button class="table__btn transition-1">View</button></td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Kendrick Smith</td>
+                            <td>Frontend</td>
+                            <td><button class="table__btn transition-1">View</button></td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Max Mendes</td>
+                            <td>Designer</td>
+                            <td><button class="table__btn transition-1">View</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
         <section class="poster" id="poster__panorama">
             <!-- Image will be inserted here using CSS attributed to the id of this element-->
@@ -101,18 +105,25 @@
         <section class="card grey__background card__with__text">
             <h1 class="card__title">Lorem Ipsum</h1>
             <div class="card__two__columns">
-                <p class="card__text">Tenetur autem nihil nulla voluptatibus, itaque suscipit provident facilis dolor ipsa
+                <p class="card__text">Tenetur autem nihil nulla voluptatibus, itaque suscipit provident facilis dolor
+                    ipsa
                     quisquam voluptatum?</p>
-                <p class="card__text">Tenetur autem nihil nulla voluptatibus, itaque suscipit provident facilis dolor ipsa
+                <p class="card__text">Tenetur autem nihil nulla voluptatibus, itaque suscipit provident facilis dolor
+                    ipsa
                     quisquam voluptatum?</p>
             </div>
         </section>
         <section class="card grey__background card__with__text">
             <h1 class="card__title">Dolor Sit Amet!</h1>
-            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quod rerum, minus omnis accusamus aliquid culpa repellat aliquam explicabo voluptates doloribus, sequi inventore eaque molestias facilis tempora!</p>
+            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quod rerum, minus
+                omnis accusamus aliquid culpa repellat aliquam explicabo voluptates doloribus, sequi inventore eaque
+                molestias facilis tempora!</p>
             <br>
-            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quod rerum, minus omnis accusamus aliquid culpa repellat aliquam explicabo voluptates doloribus, sequi inventore eaque molestias facilis tempora! Fuga, consequuntur optio!</p>
+            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quod rerum, minus
+                omnis accusamus aliquid culpa repellat aliquam explicabo voluptates doloribus, sequi inventore eaque
+                molestias facilis tempora! Fuga, consequuntur optio!</p>
         </section>
     </main>
 </body>
+
 </html>
